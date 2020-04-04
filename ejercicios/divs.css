@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fafafa;
+}
+
+header{
+    text-align: right;
+}
+
+header a{
+    margin: 40px;
+}
+
+main{
+    
+}
+
+.square{
+    background-color: #eb4559;
+    height: 200px;
+    width: 300px;
+    margin: 30px;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+
+#contenedor{
+    display: flex;
+    flex-wrap: wrap;
+}
+
